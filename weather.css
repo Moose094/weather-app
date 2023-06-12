@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;   
+}
+body{
+    background: #94d3f7;
+}
+.main{
+    width: 90%;
+    max-width: 500px;
+    background: #16a1f2;
+    color: white;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+}
+.lookup{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.lookup input{
+    height: 60px;
+    padding: 10px 20px;
+    flex:1;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.lookup button{
+    height: 60px;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 50%;
+}
+.weatherImage{
+    width: 200px;
+    margin-top: 30px;
+}
+weatherInfo h1{
+    font-size: 75px;
+    font-weight: 300;
+}
+weatherInfo h1 {
+    font-size: 40px;
+    font-weight: 150;
+}
